@@ -1,0 +1,12 @@
+[Unit]
+Description=gunicorn daemon
+After=network.target
+
+[Service]
+User=btcwallet
+Group=btcwallet
+WorkingDirectory=/home/btcwallet/btcwallet/
+ExecStart=/home/btcwallet/env/bin/gunicorn --name btcwallet --workers 4 --max-requests 10 --user btcwallet --group btcwallet --log-level debug --error-logfile /home/btcwallet/btcwallet/error.log --timeout 300 --bind unix:/home/btcwallet/btcwallet/btcwallet/btcwallet.socket btcwallet.wsgi:application
+
+[Install]
+WantedBy=multi-user.target

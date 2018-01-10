@@ -1,0 +1,273 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-12-25 00:02+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: bot/tasks.py:59
+#, python-format
+msgid "На ваш кошелек был создан перевод на сумму %.8f BTC"
+msgstr "To your wallet was sent transfer %.8f BTC"
+
+#: bot/views.py:145 bot/views.py:274 bot/views.py:477 bot/views.py:493
+#: bot/views.py:510 bot/views.py:521 bot/views.py:534 bot/views.py:545
+#: bot/views.py:551 bot/views.py:563 bot/views.py:590 bot/views.py:599
+msgid "Главное меню"
+msgstr "Home"
+
+#: bot/views.py:156
+msgid ""
+"BeeWallet является самым защищенным и самым быстрым кошельком. Отправляя "
+"средства внутри BeeWallet вы мгновенно получаете доступ к средствам без "
+"необходимости дожидаться подтверждения сети. Пригласите своих друзей в "
+"BeeWallet и экономьте до 40% на плате за транзакцию."
+msgstr ""
+"BeeVallet is the most secure and fastest purse. Sending funds inside "
+"BeeWallet you instantly get access to funds without having to wait for "
+"confirmation of the network. Invite your friends to BeeWallet and save up to "
+"40% on the transaction fee."
+
+#: bot/views.py:158 bot/views.py:225
+msgid "Баланс"
+msgstr "Balance"
+
+#: bot/views.py:158 bot/views.py:346
+msgid "История"
+msgstr "History"
+
+#: bot/views.py:159 bot/views.py:456
+msgid "Отправить"
+msgstr "Send"
+
+#: bot/views.py:159 bot/views.py:260
+msgid "Получить"
+msgstr "Receive"
+
+#: bot/views.py:160 bot/views.py:267
+msgid "Настройки"
+msgstr "Settings"
+
+#: bot/views.py:160 bot/views.py:341
+msgid "Поддержка"
+msgstr "Support"
+
+#: bot/views.py:199 bot/views.py:206 bot/views.py:235 bot/views.py:240
+#: bot/views.py:389 bot/views.py:395 bot/views.py:445 bot/views.py:451
+#: bot/views.py:465 bot/views.py:470 bot/views.py:576 bot/views.py:582
+#: bot/views.py:740 bot/views.py:746
+msgid "Возникла ошибка. Обратитесь в службу поддержки @beeqb"
+msgstr "An error occurred. Contact @beeqb_eng"
+
+#: bot/views.py:214
+msgid ""
+"Теперь вам могут переводить средства внутри BeeWallet, просто указав ваш "
+"номер телефона."
+msgstr ""
+"Now anyone can sent money inside BeeWallet, simply by enter your phone "
+"number."
+
+#: bot/views.py:253
+#, python-format
+msgid ""
+"Ваш баланс:\n"
+"%.8fBTC\n"
+"%s\n"
+"\n"
+msgstr ""
+"Balance:\n"
+"%.8fBTC\n"
+"%s\n"
+"\n"
+
+#: bot/views.py:254
+#, python-format
+msgid ""
+"Ожидает подтверждения:\n"
+"%.8fBTC\n"
+"%s"
+msgstr ""
+"Pending Rec'd:\n"
+"%.8fBTC\n"
+"%s"
+
+#: bot/views.py:261
+#, python-format
+msgid ""
+"Адрес вашего кошелька:\n"
+"%s\n"
+"\n"
+"QR код вашего кошелька:"
+msgstr ""
+"Your BTC wallet address:\n"
+"%s\n"
+"\n"
+"QR code of your wallet:"
+
+#: bot/views.py:269
+msgid ""
+"Здесь вы можете:\n"
+"-изменить язык интерфейса\n"
+"-привязать телефон, чтобы Вам могли совершать переводы по телефону\n"
+"-изменить валюту эквивалента для биткоина"
+msgstr ""
+"You can:\n"
+"-Change language\n"
+"-Add a phone so that you can make transfers by phone number\n"
+"-Change the equivalent currency for bitcoin"
+
+#: bot/views.py:271 bot/views.py:279
+msgid "Изменить язык"
+msgstr "Change language"
+
+#: bot/views.py:272
+msgid "Привязать телефон"
+msgstr "Add phone number"
+
+#: bot/views.py:273 bot/views.py:287
+msgid "Изменить валюту"
+msgstr "Change currency"
+
+#: bot/views.py:288
+msgid "Выберите валюту"
+msgstr "Select currency"
+
+#: bot/views.py:335
+#, python-format
+msgid "Вы изменили валюту эквивалента на %s"
+msgstr "You changed the equivalent currency to %s"
+
+#: bot/views.py:342
+msgid ""
+"Если у вас возникли вопросы или трудности при использовании кошелька, "
+"обратитесь в официальный чат @beeqb"
+msgstr ""
+"If you have any questions or difficulties when using your wallet, contact "
+"the official chat @beeqb_eng"
+
+#: bot/views.py:354
+msgid "Исходящие:\n"
+msgstr "Inbox:\n"
+
+#: bot/views.py:357 bot/views.py:413
+msgid "Пусто"
+msgstr "Clear"
+
+#: bot/views.py:361 bot/views.py:417
+#, python-format
+msgid "Дата: %s\n"
+msgstr "Date: %s\n"
+
+#: bot/views.py:362 bot/views.py:419
+#, python-format
+msgid "Сумма: %sBTC\n"
+msgstr "Sum: %sBTC\n"
+
+#: bot/views.py:383
+#, python-format
+msgid ""
+"Кому: %s\n"
+"\n"
+msgstr ""
+"To: %s\n"
+"\n"
+
+#: bot/views.py:409
+msgid "Входящие:\n"
+msgstr "Sent:\n"
+
+#: bot/views.py:432
+#, python-format
+msgid ""
+"От: %s\n"
+"\n"
+msgstr ""
+"From: %s\n"
+"\n"
+
+#: bot/views.py:473
+#, python-format
+msgid ""
+"Ваш баланс %.8fBTC.\n"
+"Введите адрес кошелька или номер телефона в формате “+12223334455” или имя "
+"пользователя в формате \"@username\" кому хотите перевести деньги."
+msgstr ""
+"Available balance %.8fBTC.\n"
+"Enter the wallet address or phone number in the forma “+12223334455” or the "
+"username in the format \"@username\" to whom you want to transfer money."
+
+#: bot/views.py:491 bot/views.py:508 bot/views.py:532
+msgid "Введите сумму BTC, которую хотите перевести:"
+msgstr "Enter the amount of BTC you want to sent:"
+
+#: bot/views.py:519
+msgid "Ошибка! Пользователь с таким именем не зарегистрирован."
+msgstr "Error! A user with this name is not registered."
+
+#: bot/views.py:543
+msgid "Ошибка! Пользователь с таким телефоном не зарегистрирован."
+msgstr "Error! A user with this phone is not registered."
+
+#: bot/views.py:549
+msgid "Ошибка! Некорректное значение."
+msgstr "Error! Incorrect value."
+
+#: bot/views.py:561
+msgid "Ошибка: Значение должно быть числовым. Введите другую сумму."
+msgstr "Error: Value must be numeric. Please enter a different amount."
+
+#: bot/views.py:588
+msgid "Ошибка! Минимальная сумма - 0.00001BTC. Введите другую сумму."
+msgstr ""
+"Error! The minimum withdrawal amount is 0.00001BTC. Please enter a different "
+"amount."
+
+#: bot/views.py:597
+msgid "Ошибка! У вас недостаточно средств на счету"
+msgstr "Error! You do not have enough funds in your account"
+
+#: bot/views.py:603
+msgid "Ожидайте..."
+msgstr "Wait..."
+
+#: bot/views.py:607
+#, python-format
+msgid "Вы уверены, что хотите перевести %.8f BTC пользователю %s?\n"
+msgstr "Are you sure, you want to sent %.8f BTC to %s?\n"
+
+#: bot/views.py:610
+#, python-format
+msgid "Вы уверены, что хотите перевести %.8f BTC на кошелек %s?\n"
+msgstr "Are you sure, you want to sent %.8f BTC to %s?\n"
+
+#: bot/views.py:665 bot/views.py:668 bot/views.py:671
+#, python-format
+msgid "Перевести за %sBTC"
+msgstr "Sent for %sBTC"
+
+#: bot/views.py:675
+msgid "Отмена"
+msgstr "Cancel"
+
+#: bot/views.py:729
+#, python-format
+msgid "Вы успешно отправили: %sBTC"
+msgstr "%sBTC succesfully sent"
+
+#: bot/views.py:735
+#, python-format
+msgid "%s вам перевел %.8fBTC."
+msgstr "%s sent you %.8fBTC."

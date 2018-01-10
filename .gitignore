@@ -99,3 +99,14 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+
+/media/
+/node_modules/
+/static/
+/.pyvenv/
+.idea
+/tmp/
+*.pyc
+*.swp
+package-lock.json
